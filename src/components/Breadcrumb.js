@@ -9,7 +9,8 @@ const Breadcrumb = (props) => {
                     <div className="container">
                         <div className="breadcrumb_content text-center">
                             <h1 className="f_p f_700 f_size_50 w_color l_height50 mb_20">{props.breadcrumb}</h1>
-                            <p className="f_400 w_color f_size_16 l_height26">Why I say old chap that is spiffing off his nut arse pear shaped plastered<br /> Jeffrey bodge barney some dodgy.!!</p>
+                            <p className="f_400 w_color f_size_16 l_height26">We are building for the future of Healthcare IT.</p>
+                            <p className="f_400 w_color f_size_16 l_height26">HECOD if focusing on the pain points of the doctors to ensure that they have an easy-to-use,<br/>highly customizable software solution for smooth function of their medical practice.</p>
                         </div>
                     </div>
                 </section>                

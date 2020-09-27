@@ -10,7 +10,7 @@ const Slider = () => {
                         <div className="col-lg-7 d-flex align-items-center">
                             <div className="slider_content">
                                 <h2 className="f_p f_700 f_size_40 l_height60">Connecting Healthcare.</h2>
-                                <p className="f_400 l_height28 mt_30">HECOD is one stop solution for all your healthcare needs.<br/> We are on a mission to digitize healthcare to make it more efficient for people across the globe.!!</p>
+                                <p className="f_400 l_height28 mt_30">HECOD is one stop solution for all your healthcare needs.<br/> We are on a mission to digitize healthcare to make it more efficient for people across the globe!</p>
                                 {/* <a href="get" className="slider_btn btn_hover mt_30">Get Started</a> */}
                                 <Link to="/about" className="slider_btn btn_hover mt_30">Get Started</Link>
                             </div>

@@ -12,6 +12,7 @@ import Jobs from './pages/Jobs';
 import './assets/scss/style.scss'
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermCondition from './pages/TermCondition';
+import Booknow from './pages/Booknow';
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/jobs" component={Jobs} />         
           <Route exact path="/privacy-policy" component={PrivacyPolicy} />         
-          <Route exact path="/term-condition" component={TermCondition} />         
+          <Route exact path="/term-condition" component={TermCondition} />
+          <Route exact path="/booknow" component={Booknow} />         
           <Route  component={Error} />
         </Switch>
       </BrowserRouter>

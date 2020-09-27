@@ -6,17 +6,17 @@ const SeoService = () => {
             <section className="seo_service_area sec_pad">
                 <div className="container">
                     <div className="seo_sec_title text-center mb_70 wow fadeInUp" data-wow-delay="0.3s">
-                        <h2>How does it work?</h2>
-                        <p>The full monty burke posh excuse my French Richard cheeky bobby spiffing crikey<br /> Why gormless, pear shaped.!</p>
+                        <h2>Why HECOD?</h2>
+                        <p>HECOD gives medical practitioners freedom to customize our solution according to their needs and works like their virtual strategic consultants to help them grow their business using our secure Practice Management sotware and Electronic Health Record solution.</p>
                     </div>
                     <div className="row seo_service_info">
                         <div className="col-lg-4 col-md-6">
                             <div className="seo_service_item">
                                 <img src={require('../assets/img/seo/icon1.png')} alt="icon1" />
                                 <a href="#">
-                                    <h4>Digital Analytics</h4>
+                                    <h4>Analysis</h4>
                                 </a>
-                                <p>Twit cras excuse my French matie boy grub it's all gone to pot off his nut butty horse play blow off pardon you hanky panky.!</p>
+                                <p>We analyze your business requirements and customize the product accordingly.</p>
                                 <a href="#"><i className="arrow_right" /></a>
                             </div>
                         </div>
@@ -24,9 +24,9 @@ const SeoService = () => {
                             <div className="seo_service_item">
                                 <img src={require('../assets/img/seo/icon2.png')} alt="icon2" />
                                 <a href="#">
-                                    <h4>Digital Marketing</h4>
+                                    <h4>Strategy</h4>
                                 </a>
-                                <p>Twit cras excuse my French matie boy grub it's all gone to pot off his nut butty horse play blow off pardon you hanky panky.!</p>
+                                <p>HECOD works like consultants to manage your needs to help you expand your business.</p>
                                 <a href="#"><i className="arrow_right" /></a>
                             </div>
                         </div>
@@ -34,9 +34,9 @@ const SeoService = () => {
                             <div className="seo_service_item">
                                 <img src={require('../assets/img/seo/icon3.png')} alt="icon3" />
                                 <a href="#">
-                                    <h4>Email Marketing</h4>
+                                    <h4>Data Security</h4>
                                 </a>
-                                <p>Twit cras excuse my French matie boy grub it's all gone to pot off his nut butty horse play blow off pardon you hanky panky.!</p>
+                                <p>Healthcare Data is sensitive and HECOD has it covered. Patient owns the data. </p>
                                 <a href="#"><i className="arrow_right" /></a>
                             </div>
                         </div>

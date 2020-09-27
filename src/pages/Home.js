@@ -29,12 +29,12 @@ const Home = () => {
             <div className="body_wrapper">
                 <Header/>
                 <Slider/>
-                <SeoService/>
                 <AgencyFeatured/>
+                <SeoService/>
                 <FunFactArea/>
                 <Fact/>
-                <AgencyTestimonial/>
-                <Footer/>
+                {/* <AgencyTestimonial/> */}
+                <Footer/> 
             </div>
 
         </>

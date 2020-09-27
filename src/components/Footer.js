@@ -11,7 +11,7 @@ const Footer = () => {
                             <div className="col-lg-4 col-md-6">
                                 <div className="f_widget company_widget pr_20">
                                     <a href="index.html" className="f-logo"><img src={require('../assets/img/logo.png')} srcSet="img/logo2x.png 2x" alt="logo" /></a>
-                                    <p className="f_400 f_p f_size_15 l_height28 mt_30 mb_40">Why I say old chap that is spiffing lavatory chip shop gosh off his nut.!</p>
+                                    <p className="f_400 f_p f_size_20 l_height28 mt_30 mb_40">Power your practice with digitization.</p>
                                     <img src={require('../assets/img/home2/overview.png')} alt="overview" />
                                 </div>
                             </div>

@@ -5,8 +5,10 @@ const AgencyFeatured = () => {
         <>
             <section className="agency_featured_area agency_featured_area_two  bg_color">
                 <div className="container">
-                    <h2 className="f_size_30 f_600 t_color3 l_height40 text-center wow fadeInUp" data-wow-delay="0.1s">You SaasLand wherever your<br /> business agency</h2>
-                    <div className="features_info feature_info_two">
+                <div className="seo_sec_title text-center mb_70 wow fadeInUp" data-wow-delay="0.3s">
+                        <h2>What We Do?</h2>
+                        <p>HECOD is working to build highly customizable software for medical practitioners across the globe.<br/>We build software that help your practice smoother with analytics, strategic planning that comes packed with high security in the HECOD Practice Management softwares and HECOD Electronic Health Record Software.</p>
+                    </div><div className="features_info feature_info_two">
                         <img className="dot_img" src={require('../assets/img/home8/dot.png')} alt="dot" />
                         <div className="row agency_featured_item flex-row-reverse">
                             <div className="col-lg-6">

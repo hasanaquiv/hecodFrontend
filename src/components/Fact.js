@@ -18,26 +18,26 @@ const Fact = () => {
                     <div className="seo_fact_info">
                         <div className="seo_fact_item">
                             <div className="text">
-                                <div className="counter one">693</div>
+                                <div className="counter one"><i class="fab fa-node"></i></div>
                                 <p>Node JS</p>
                             </div>
                         </div>
                         <div className="seo_fact_item">
                             <div className="text">
-                                <div className="counter two">276</div>
+                                <div className="counter two"><i class="fab fa-react"></i></div>
                                 <p>React Js</p>
                             </div>
                         </div>
                         <div className="seo_fact_item">
                             <div className="text">
-                                <div className="counter three">102</div>
+                                <div className="counter three"><i class="fas fa-dice-d6"></i></div>
                                 <p>Blockchain</p>
                             </div>
                         </div>
                         <div className="seo_fact_item last">
                             <div className="text">
-                                <div className="counter four">93</div>
-                                <p>Native</p>
+                                <div className="counter four"><i class="fas fa-robot"></i></div>
+                                <p>Artificial Intelligence</p>
                             </div>
                         </div>
                     </div>
