@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import Slider from '../components/Slider';
 import AgencyFeatured from '../components/AgencyFeatured';
 import FunFactArea from '../components/FunFactArea';
-import AgencyTestimonial from '../components/AgencyTestimonial';
+// import AgencyTestimonial from '../components/AgencyTestimonial';
 import Footer from '../components/Footer';
 import SeoService from '../components/SeoService';
 import Fact from '../components/Fact';

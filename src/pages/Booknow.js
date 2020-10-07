@@ -25,7 +25,10 @@ const Booknow = () => {
         <div>
             <div className="body_wrapper">
                 <Header />
-                <Breadcrumb breadcrumb="Book Now" />
+                <Breadcrumb breadcrumb="Book Now"
+                tagOne="HECOD is available at one click."
+                tagTwo="Make payments through our website to get access to HECOD EHR and Practice management Software to make your medical practice easy and comfortable at an affordable price."
+                 />
                 <AgencyService />
                 <section className="payment_action_area">
                     <div className="clients_bg_shape_bottom" />
@@ -35,8 +38,8 @@ const Booknow = () => {
                                 <div className="icon_shape" />
                                 <img className="icon_img" src={require('../assets/img/home9/icon2.png')} alt="payment icon" />
                             </div>
-                            <h2 className="f_p t_color f_700">Join 200 million PayPal users worldwide.</h2>
-                            <p>All you need is an email address or mobile phone number to transfer money. If they<br /> don't have an account, they can create one quickly, for free.</p>
+                            <h2 className="f_p t_color f_700">Join 200 million users worldwide.</h2>
+                            <p>All you need is an email address or mobile phone number to transfer money.</p>
                             <a href="#" className="btn_hover agency_banner_btn pay_btn pay_btn_two">Pay With Stripe</a>
                         </div>
                     </div>

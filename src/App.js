@@ -13,6 +13,7 @@ import './assets/scss/style.scss'
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermCondition from './pages/TermCondition';
 import Booknow from './pages/Booknow';
+import Stripe from './pages/Stripe';
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
           <Route exact path="/jobs" component={Jobs} />         
           <Route exact path="/privacy-policy" component={PrivacyPolicy} />         
           <Route exact path="/term-condition" component={TermCondition} />
-          <Route exact path="/booknow" component={Booknow} />         
+          <Route exact path="/booknow" component={Booknow} /> 
+          <Route exact path="/stripe" component={Stripe} />         
           <Route  component={Error} />
         </Switch>
       </BrowserRouter>

@@ -8,7 +8,7 @@ import AgencyService from '../components/AgencyService';
 const About = () => {
     useEffect(() => {
         let scripts = [
-          { src: "js/jquery-3.2.1.min.js" },
+          { src: "js/jquery-3.2.1.min.js" }, 
           { src: "vendors/wow/wow.min.js" },
           { src: "vendors/owl-carousel/js/owl.carousel.min.js" },
           { src: "js/main.js" }
@@ -25,7 +25,11 @@ const About = () => {
         <div>
              <div className="body_wrapper">
                 <Header/>
-                <Breadcrumb breadcrumb="About"/>
+                <Breadcrumb 
+                breadcrumb="About"
+                tagOne="We are building for the future of Healthcare IT."
+                tagTwo="HECOD if focusing on the pain points of the doctors to ensure that they have an easy-to-use,<br/>highly customizable software solution for smooth function of their medical practice."
+                />
                 <AgencyService/>
                 <AgencyAbout/>
                 <Footer/>

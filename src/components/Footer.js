@@ -19,23 +19,19 @@ const Footer = () => {
                                 <div className="f_widget about-widget">
                                     <h3 className="f-title f_600 t_color2 f_size_18 mb_40">Company</h3>
                                     <ul className="list-unstyled f_list">
-                                        <li><Link to="company">Company</Link></li>
-                                        <li><Link to="leadership">Leadership</Link></li>
-                                        <li><Link to="diversity">Diversity</Link></li>
-                                        <li><Link to="jobs">Jobs</Link></li>
-                                        <li><Link to="news">News</Link></li>
+                                        <li><Link to="/jobs">Jobs</Link></li>
+                                        <li><Link to="/news">News</Link></li>
+                                        <li><Link to="/term-condition">Term Condition</Link></li>
                                     </ul>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-6">
                                 <div className="f_widget about-widget">
-                                    <h3 className="f-title f_600 t_color2 f_size_18 mb_40">Workflow Solutions</h3>
+                                    <h3 className="f-title f_600 t_color2 f_size_18 mb_40">Solutions</h3>
                                     <ul className="list-unstyled f_list">
-                                        <li><Link to="project-menegment">Project Management</Link></li>
-                                        <li><Link to="agile">Agile</Link></li>
-                                        <li><Link to="task-management">Task Management</Link></li>
-                                        <li><Link to="reporting">Reporting</Link></li>
-                                        <li><Link to="hwork-tracking">Work Tracking</Link></li>
+                                        <li><Link to="project-menegment">Electronic Health Records</Link></li>
+                                        <li><Link to="agile">Practice Management Software</Link></li>
+                                        <li><Link to="task-management">Consumer Health App</Link></li>
                                     </ul>
                                 </div>
                             </div>

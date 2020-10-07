@@ -9,7 +9,9 @@ const Team = () => {
         <div>
              <div className="body_wrapper">
                 <Header/>
-                <Breadcrumb breadcrumb="Team"/>
+                <Breadcrumb 
+                breadcrumb="Team"
+                />
                 <ExpertTeam/>
                 <Footer/>
             </div>
