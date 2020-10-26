@@ -69,8 +69,9 @@ const Footer = () => {
                             </div>
                             <div className="col-lg-4 col-md-4 col-sm-12">
                                 <ul className="list-unstyled f_menu text-right">
-                                    <li><Link to="term-condition">Terms & Conditions</Link></li>
-                                    <li><Link to="privacy-policy">Privacy Policy</Link></li>
+                                    <li><Link to="/term-condition">Terms & Conditions</Link></li>
+                                    <li><Link to="/privacy-policy">Privacy Policy</Link></li>
+                                    <li><Link to="/stripe">Stripe</Link></li>
                                 </ul>
                             </div>
                         </div>

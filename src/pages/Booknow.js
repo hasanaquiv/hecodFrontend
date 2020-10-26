@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Breadcrumb from '../components/Breadcrumb';
 import AgencyService from '../components/AgencyService';
+import { Link } from 'react-router-dom';
 
 const Booknow = () => {
     useEffect(() => {
@@ -41,6 +42,7 @@ const Booknow = () => {
                             <h2 className="f_p t_color f_700">Join 200 million users worldwide.</h2>
                             <p>All you need is an email address or mobile phone number to transfer money.</p>
                             <a href="#" className="btn_hover agency_banner_btn pay_btn pay_btn_two">Pay With Stripe</a>
+                            <Link></Link>
                         </div>
                     </div>
                 </section>
